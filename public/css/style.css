@@ -1,0 +1,128 @@
+body {background-color: #d4e0f2;}
+#accordion{
+	background-color: #ffffff;
+	border-radius: 10px;
+	position: relative;
+	bottom: 10px;
+}
+.card-header{ 
+	background-color: #ffc600;
+}		 
+.title:visited,.title:hover,.title:active,.title{
+	color: #ffffff;
+	text-decoration: none;
+}
+.card-body{
+
+	position: relative;
+	bottom :6px;
+	background-color:#dedede;
+	border-bottom-left-radius:  10px;
+	border-bottom-right-radius: 10px;
+	margin-bottom:  1px;
+	margin-left: 5px;
+	margin-right: 5px;
+
+}
+#headingOne,#headingTwo{
+	border-radius: 10px;
+
+	z-index: 2;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.card{
+	background-color:#ffffff;
+	border-color: #ffffff;
+}
+#headingOne{
+	
+}
+#headingTwo{
+	
+}
+#headingThree{
+	z-index: 2;
+	border-radius:  10px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#cardThree{
+	margin-top: -1px;
+	border-radius: 10px;
+
+}
+#cardTwo{
+	margin-top: -1px;
+	border-radius: 10px;
+}
+#card-bodyThree{
+	position: relative;
+	bottom: 11px;
+
+}
+#comment{
+	max-width: 100%;
+    width: 100%;
+}
+#nextThree{
+
+	margin-top: 9rem;
+	width: 9rem;
+	border-radius: 12px;
+	background-color: rgb(66,76,180);
+}
+#nextOne,#nextTwo{
+	width: 9em;
+	border-radius: 12px;
+	background-color: rgb(66,76,180);
+}
+
+
+input[name=first_name] {    
+   border-radius: 12px;
+   max-width: 18em;
+   box-shadow: inset 3px 3px 10px 0px rgb(217,217,217);
+}   
+
+input[name=last_name] {    
+     border-radius: 12px;
+     max-width: 18em;
+     box-shadow: inset 3px 3px 10px 0px rgb(217,217,217);
+}   
+input[name=email] {
+	 border-radius: 12px;
+	 max-width: 18em;
+	 box-shadow: inset 3px 3px 10px 0px rgb(217,217,217);
+}
+input[name=phone_number] {
+	 border-radius: 12px;
+	 max-width: 18em;
+	 box-shadow: inset 3px 3px 10px 0px rgb(217,217,217);
+}
+input[name=day] {
+	 border-radius: 12px;
+	 max-width: 3em;
+	 box-shadow: inset 3px 3px 10px 0px rgb(217,217,217);
+}
+input[name=month] {
+	 border-radius: 12px;
+	 max-width: 3em;
+	 box-shadow: inset 3px 3px 10px 0px rgb(217,217,217);
+}
+input[name=year] {
+	 border-radius: 12px;
+	 max-width: 3em;
+	 box-shadow: inset 3px 3px 10px 0px rgb(217,217,217);
+}
+select {
+	max-width: 18em;
+	box-shadow: inset 0px 0px 10px 3px rgb(217,217,217);
+}
+textarea{
+	text-decoration: none;
+	 box-shadow: inset 3px 3px 10px 0px rgb(217,217,217);
+}
