@@ -9,12 +9,21 @@ The form have to be validated in front-end then back-end.
 
 # Techs used
 
-Laravel 5.6 for the backend php
-HTML 5+
-Bootstrap 4
-CSS 4+
-Jquery 3.2.1
-Parsley 2.8.1 (javascript validation) 
+- Laravel 5.6 for the backend php
+- HTML 5+
+- Bootstrap 4
+- CSS 4+
+- Jquery 3.2.1
+- Parsley 2.8.1 (javascript validation)
+- mySQL 
+
+# Installing
+
+Just create an empty laravel 5.6 projet and clone this repository inside.
+I used a localhost setting, so be sure to set your laravel project properly as well.
+
+
+
 
 # License
 
