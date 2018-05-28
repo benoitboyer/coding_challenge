@@ -115,7 +115,7 @@ input[name=month] {
 }
 input[name=year] {
 	 border-radius: 12px;
-	 max-width: 3em;
+	 max-width: 4em;
 	 box-shadow: inset 3px 3px 10px 0px rgb(217,217,217);
 }
 select {
