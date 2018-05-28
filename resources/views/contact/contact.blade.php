@@ -133,5 +133,5 @@
 
 @endsection
 @section('scripts')
-@include('contact.scripts.ajax_post')
+@include('contact.scripts.contact_form')
 @endsection
