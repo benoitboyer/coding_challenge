@@ -14,7 +14,6 @@ The form have to be validated in front-end then back-end.
 - Bootstrap 4
 - CSS 4+
 - Jquery 3.2.1
-- Parsley 2.8.1 (javascript validation)
 - mySQL 
 
 # Installing
