@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 use App\Contact;
 use App\Rules\Ukphone;
 
-use Validator;
 use Session;
 
 class ContactController extends Controller
@@ -62,6 +61,6 @@ class ContactController extends Controller
     	//return a success message to the page. 
     	Session::flash('success', 'Datas successfully added, thank you for your time.');
     	
-    	return view('contact/contact');
+    	return redirect()->route('contact');
     }
 }

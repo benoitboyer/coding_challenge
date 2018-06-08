@@ -19,8 +19,30 @@ The form have to be validated in front-end then back-end.
 
 # Installing
 
-Just create an empty laravel 5.6 projet and clone this repository inside.
-I used a localhost setting, so be sure to set your laravel project properly as well.
+Clone the repo with git clone
+
+Get the vendor folder
+
+- composer update 
+- composer install
+
+clear the cache
+- php artisan config:clear
+
+rename .env.emxample into .env
+- cp -a .env.example .env
+
+generate the key
+- php artisan key:generate
+
+create a new database do get the migration and configure the env file correctly
+
+
+
+run the server
+- php artisan serve
+
+go to localhost:8000
 
 
 
